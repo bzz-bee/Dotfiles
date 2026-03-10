@@ -54,21 +54,29 @@ window#waybar.solo {
     padding: 0px 5px;
 }
 
+#workspaces {
+    margin-left: 5px;
+}
 #workspaces button {
-    padding: 0 5px;
-    color: rgba(53, 185, 171, 1);
+    padding: 2px;
+    color: rgba(130, 180, 110, 1);
 }
-
 #workspaces button.focused {
-    color: rgba(115, 186, 37, 1);
+    color: rgba(130, 180, 110, 1);
+    border: 4px ridge rgba(0, 40, 30, 0.9);
 }
-
 #workspaces button.visible {
-    color: rgba(115, 186, 37, 1);
+    color: rgba(130, 180, 110, 1);
+    border: 4px ridge rgba(0, 40, 30, 0.9);
 }
-
+#workspaces button.empty {
+    color: rgba(140, 140, 140, 0.75);
+    border: 4px ridge rgba(20, 30, 25, 0.9);
+}
 #workspaces button.urgent {
     color: rgba(33, 164, 223, 1);
+    background-color: rgba(30, 30, 30, 0.9);
+    border: 4px ridge rgba(0, 40, 30, 0.9);
 }
 
 #mode, 

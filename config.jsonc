@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-right": ["custom/hyprsplash", "sway/workspaces", "custom/scratchpad", "sway/mode"],
     "modules-center": ["custom/ldecor", "clock", "custom/rdecor"],
-    "modules-left": ["custom/suse", "custom/zypper", "cpu", "memory", "temperature", "battery", "battery#bat2", "network", "bluetooth", "pulseaudio", "custom/layout"],
+    "modules-left": ["custom/suse", "custom/zypper", "cpu", "memory", "temperature", "battery", "battery#bat2", "network", "bluetooth", "pulseaudio", "hyprland/workspaces"],
     "sway/mode": {
        "format": " {}"
     },
