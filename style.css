@@ -2,7 +2,7 @@
     border:        none;
     border-radius: 0;
     font-family:   "GohuFont 14 Nerd Font Propo";
-    font-size:     16px;
+    font-size:     14px;
     box-shadow:    none;
     text-shadow:   none;
     transition-duration: 0s;
@@ -22,7 +22,7 @@ window#waybar.solo {
 }
 
 #custom-ldecor {
-    font-size:24px;
+    font-size:20px;
     font-family:"Noto Symbol 2";
     color: rgba(200, 200, 200, 1);
     margin-bottom: -5px;
@@ -30,7 +30,7 @@ window#waybar.solo {
 }
 
 #custom-rdecor {
-    font-size:24px;
+    font-size:20px;
     font-family:"Noto Symbol 2";
     color: rgba(200, 200, 200, 1);
     margin-bottom: -5px;
@@ -38,7 +38,7 @@ window#waybar.solo {
 }
 
 #custom-suse {
-    font-size:24px;
+    font-size:20px;
     margin-left: 10px;
     margin-right: 6px;
     color: rgba(200, 200, 200, 1);
@@ -58,7 +58,7 @@ window#waybar.solo {
     margin-left: 5px;
 }
 #workspaces button {
-    padding: 2px;
+    padding: 0px 0px 0px 0px;
     color: rgba(130, 180, 110, 1);
 }
 #workspaces button.focused {
@@ -90,13 +90,13 @@ window#waybar.solo {
 #temperature,
 #custom-layout,
 #backlight {
-    margin: 0px 6px 0px 10px;
+    margin: 0px 2px 0px 10px;
 /*    min-width: 30px;*/
 }
 
 #clock {
     margin: 0px 0px 0px 0px;
-    font-size:     20px;
+    font-size:  20px;
 }
 
 #battery.warning {

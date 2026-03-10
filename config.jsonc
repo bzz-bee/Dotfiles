@@ -11,12 +11,19 @@
     "sway/mode": {
        "format": " {}"
     },
+
+    "hyprland/workspaces": {
+	"persistent-workspaces": {
+    	    "*": [1,2,3],
+	}
+    },
+
     "custom/ldecor": {
-	"format": "★ ✧ 󰫢 ✴ 󰫣 ✦ ✩  ",
+	"format": "★  ✧  󰫢  ✴  󰫣  ✦  ✩   ",
 	"tooltip": false
     },
     "custom/rdecor": {
-	"format": "  ✩ ✦ 󰫣 ✴ 󰫢 ✧ ★",
+	"format": "   ✩  ✦  󰫣  ✴  󰫢  ✧  ★",
         "tooltip": false
     },
     "custom/hyprsplash": {
